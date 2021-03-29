@@ -1,0 +1,1 @@
+A management desktop application for a charity.

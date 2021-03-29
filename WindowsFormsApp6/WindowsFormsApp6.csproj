@@ -1,0 +1,1677 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{62EEBF8B-D1BF-4F8B-BC1D-8D1B0DD4AA9D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp6</RootNamespace>
+    <AssemblyName>WindowsFormsApp6</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\SMH\Desktop\kh2\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>kheirie</ProductName>
+    <PublisherName>smh</PublisherName>
+    <SuiteName>smh</SuiteName>
+    <ApplicationRevision>4</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>FC975D69B560A0BB6DFB3012A55D5E23CF7261EA</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>WindowsFormsApp6_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AnalogClock">
+      <HintPath>..\..\New folder\clock\AnalogClock\AnalogClock.dll</HintPath>
+    </Reference>
+    <Reference Include="BehComponents">
+      <HintPath>..\..\New folder\BehComponents\BehComponents.dll</HintPath>
+    </Reference>
+    <Reference Include="FMessegeBox">
+      <HintPath>..\..\New folder\FMessegeBox\FMessegeBox.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="addApplicantForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addApplicantForm.Designer.cs">
+      <DependentUpon>addApplicantForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addhelperForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addhelperForm.Designer.cs">
+      <DependentUpon>addhelperForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addMemberForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addMemberForm.Designer.cs">
+      <DependentUpon>addMemberForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addReceivedLetterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addReceivedLetterForm.Designer.cs">
+      <DependentUpon>addReceivedLetterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addSendingLetterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addSendingLetterForm.Designer.cs">
+      <DependentUpon>addSendingLetterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bankAccountCreateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bankAccountCreateForm.Designer.cs">
+      <DependentUpon>bankAccountCreateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bankAccountDelForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bankAccountDelForm.Designer.cs">
+      <DependentUpon>bankAccountDelForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bankAccountDelForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bankAccountDelForm2.Designer.cs">
+      <DependentUpon>bankAccountDelForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bankAccountEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bankAccountEditForm.Designer.cs">
+      <DependentUpon>bankAccountEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bankAccountEditForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bankAccountEditForm2.Designer.cs">
+      <DependentUpon>bankAccountEditForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bankAccountTransferEditForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bankAccountTransferEditForm2.Designer.cs">
+      <DependentUpon>bankAccountTransferEditForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bankAccountTransferForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bankAccountTransferForm.Designer.cs">
+      <DependentUpon>bankAccountTransferForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bankAccountTransferEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bankAccountTransferEditForm.Designer.cs">
+      <DependentUpon>bankAccountTransferEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bankScoreForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bankScoreForm.Designer.cs">
+      <DependentUpon>bankScoreForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="budgetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="budgetForm.Designer.cs">
+      <DependentUpon>budgetForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="buyHelpsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="buyHelpsForm.Designer.cs">
+      <DependentUpon>buyHelpsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="changeSupporterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="changeSupporterForm.Designer.cs">
+      <DependentUpon>changeSupporterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="checkReqForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="checkReqForm.Designer.cs">
+      <DependentUpon>checkReqForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="comebackForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="comebackForm.Designer.cs">
+      <DependentUpon>comebackForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="comebackForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="comebackForm2.Designer.cs">
+      <DependentUpon>comebackForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="confirmResForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="confirmResForm.Designer.cs">
+      <DependentUpon>confirmResForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="doceditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="doceditForm.Designer.cs">
+      <DependentUpon>doceditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editApplicantForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editApplicantForm.Designer.cs">
+      <DependentUpon>editApplicantForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editApplicantForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editApplicantForm2.Designer.cs">
+      <DependentUpon>editApplicantForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editBudgetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editBudgetForm.Designer.cs">
+      <DependentUpon>editBudgetForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editBuyHelpsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editBuyHelpsForm.Designer.cs">
+      <DependentUpon>editBuyHelpsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editBuyHelpsForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editBuyHelpsForm2.Designer.cs">
+      <DependentUpon>editBuyHelpsForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editComebackForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editComebackForm2.Designer.cs">
+      <DependentUpon>editComebackForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editEnactmentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editEnactmentForm.Designer.cs">
+      <DependentUpon>editEnactmentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editHelperForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editHelperForm.Designer.cs">
+      <DependentUpon>editHelperForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editHelperForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editHelperForm2.Designer.cs">
+      <DependentUpon>editHelperForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editReceivedLetterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editReceivedLetterForm.Designer.cs">
+      <DependentUpon>editReceivedLetterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editReceivedLetterForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editReceivedLetterForm2.Designer.cs">
+      <DependentUpon>editReceivedLetterForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editSendingLetterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editSendingLetterForm.Designer.cs">
+      <DependentUpon>editSendingLetterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editSendingLetterForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editSendingLetterForm2.Designer.cs">
+      <DependentUpon>editSendingLetterForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="healHelpCheckReqForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="healHelpCheckReqForm.Designer.cs">
+      <DependentUpon>healHelpCheckReqForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="healHelpConfirmForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="healHelpConfirmForm.Designer.cs">
+      <DependentUpon>healHelpConfirmForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="healHelpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="healHelpForm.Designer.cs">
+      <DependentUpon>healHelpForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="healHelpPresentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="healHelpPresentForm.Designer.cs">
+      <DependentUpon>healHelpPresentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="healHelpReqForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="healHelpReqForm.Designer.cs">
+      <DependentUpon>healHelpReqForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="helpPresentationEduIntroductionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="helpPresentationEduIntroductionForm.Designer.cs">
+      <DependentUpon>helpPresentationEduIntroductionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="marryHelpCheckReqForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="marryHelpCheckReqForm.Designer.cs">
+      <DependentUpon>marryHelpCheckReqForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="marryHelpConfirmForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="marryHelpConfirmForm.Designer.cs">
+      <DependentUpon>marryHelpConfirmForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="marryHelpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="marryHelpForm.Designer.cs">
+      <DependentUpon>marryHelpForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="marryHelpForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="marryHelpForm2.Designer.cs">
+      <DependentUpon>marryHelpForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="marryHelpPresentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="marryHelpPresentForm.Designer.cs">
+      <DependentUpon>marryHelpPresentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="marryHelpReqForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="marryHelpReqForm.Designer.cs">
+      <DependentUpon>marryHelpReqForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="marryResForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="marryResForm.Designer.cs">
+      <DependentUpon>marryResForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="marrySendIntroForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="marrySendIntroForm.Designer.cs">
+      <DependentUpon>marrySendIntroForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observeabandonedsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observeabandonedsForm.Designer.cs">
+      <DependentUpon>observeabandonedsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observeabandonedsForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observeabandonedsForm2.Designer.cs">
+      <DependentUpon>observeabandonedsForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observeamountsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observeamountsForm.Designer.cs">
+      <DependentUpon>observeamountsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observeApplicantsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observeApplicantsForm.Designer.cs">
+      <DependentUpon>observeApplicantsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observeApplicantsForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observeApplicantsForm2.Designer.cs">
+      <DependentUpon>observeApplicantsForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observeBankAccountForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observeBankAccountForm2.Designer.cs">
+      <DependentUpon>observeBankAccountForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observeBankAccountsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observeBankAccountsForm.Designer.cs">
+      <DependentUpon>observeBankAccountsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observeBudgetsetsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observeBudgetsetsForm.Designer.cs">
+      <DependentUpon>observeBudgetsetsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observeBudgetsetsForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observeBudgetsetsForm2.Designer.cs">
+      <DependentUpon>observeBudgetsetsForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observeBudgetsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observeBudgetsForm.Designer.cs">
+      <DependentUpon>observeBudgetsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observeBuyhelpsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observeBuyhelpsForm.Designer.cs">
+      <DependentUpon>observeBuyhelpsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observeBuyhelpsForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observeBuyhelpsForm2.Designer.cs">
+      <DependentUpon>observeBuyhelpsForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observeDocForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observeDocForm.Designer.cs">
+      <DependentUpon>observeDocForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observeEnactmentsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observeEnactmentsForm.Designer.cs">
+      <DependentUpon>observeEnactmentsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observeFamiliesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observeFamiliesForm.Designer.cs">
+      <DependentUpon>observeFamiliesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observeFamiliesForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observeFamiliesForm2.Designer.cs">
+      <DependentUpon>observeFamiliesForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observeForm.Designer.cs">
+      <DependentUpon>observeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observeGlobalHelpsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observeGlobalHelpsForm.Designer.cs">
+      <DependentUpon>observeGlobalHelpsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observeGlobalHelpsForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observeGlobalHelpsForm2.Designer.cs">
+      <DependentUpon>observeGlobalHelpsForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observeHealHelpsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observeHealHelpsForm.Designer.cs">
+      <DependentUpon>observeHealHelpsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observeHealHelpsForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observeHealHelpsForm2.Designer.cs">
+      <DependentUpon>observeHealHelpsForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observeHealReqsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observeHealReqsForm.Designer.cs">
+      <DependentUpon>observeHealReqsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observeHealReqsForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observeHealReqsForm2.Designer.cs">
+      <DependentUpon>observeHealReqsForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observeHelpersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observeHelpersForm.Designer.cs">
+      <DependentUpon>observeHelpersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observeHelpersForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observeHelpersForm2.Designer.cs">
+      <DependentUpon>observeHelpersForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observeindependencyCheckedForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observeindependencyCheckedForm.Designer.cs">
+      <DependentUpon>observeindependencyCheckedForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observeMarryHelpsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observeMarryHelpsForm.Designer.cs">
+      <DependentUpon>observeMarryHelpsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observeMarryHelpsForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observeMarryHelpsForm2.Designer.cs">
+      <DependentUpon>observeMarryHelpsForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observeMarryReqsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observeMarryReqsForm.Designer.cs">
+      <DependentUpon>observeMarryReqsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observeMarryReqsForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observeMarryReqsForm2.Designer.cs">
+      <DependentUpon>observeMarryReqsForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observeMembersForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observeMembersForm2.Designer.cs">
+      <DependentUpon>observeMembersForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observeMembersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observeMembersForm.Designer.cs">
+      <DependentUpon>observeMembersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observeMoneyTransferForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observeMoneyTransferForm.Designer.cs">
+      <DependentUpon>observeMoneyTransferForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observeMoneyTransferForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observeMoneyTransferForm2.Designer.cs">
+      <DependentUpon>observeMoneyTransferForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observeOnindependencyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observeOnindependencyForm.Designer.cs">
+      <DependentUpon>observeOnindependencyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observeOtherApplicantsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observeOtherApplicantsForm.Designer.cs">
+      <DependentUpon>observeOtherApplicantsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observeOtherApplicantsForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observeOtherApplicantsForm2.Designer.cs">
+      <DependentUpon>observeOtherApplicantsForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observeOtherHelpsGlobalForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observeOtherHelpsGlobalForm.Designer.cs">
+      <DependentUpon>observeOtherHelpsGlobalForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observeOtherHelpsGlobalForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observeOtherHelpsGlobalForm2.Designer.cs">
+      <DependentUpon>observeOtherHelpsGlobalForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observeOtherIndivHelpsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observeOtherIndivHelpsForm.Designer.cs">
+      <DependentUpon>observeOtherIndivHelpsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observeOtherIndivHelpsForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observeOtherIndivHelpsForm2.Designer.cs">
+      <DependentUpon>observeOtherIndivHelpsForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observeOtherIndivReqsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observeOtherIndivReqsForm.Designer.cs">
+      <DependentUpon>observeOtherIndivReqsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observeOtherIndivReqsForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observeOtherIndivReqsForm2.Designer.cs">
+      <DependentUpon>observeOtherIndivReqsForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observeParametersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observeParametersForm.Designer.cs">
+      <DependentUpon>observeParametersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observerechelpsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observerechelpsForm.Designer.cs">
+      <DependentUpon>observerechelpsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observerechelpsForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observerechelpsForm2.Designer.cs">
+      <DependentUpon>observerechelpsForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observerecLetterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observerecLetterForm.Designer.cs">
+      <DependentUpon>observerecLetterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observerecLetterForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observerecLetterForm2.Designer.cs">
+      <DependentUpon>observerecLetterForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observereqForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observereqForm1.Designer.cs">
+      <DependentUpon>observereqForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observereqForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observereqForm2.Designer.cs">
+      <DependentUpon>observereqForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observereqForm2_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observereqForm2_2.Designer.cs">
+      <DependentUpon>observereqForm2_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observereqForm3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observereqForm3.Designer.cs">
+      <DependentUpon>observereqForm3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observereqForm3_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observereqForm3_2.Designer.cs">
+      <DependentUpon>observereqForm3_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observesentLetterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observesentLetterForm.Designer.cs">
+      <DependentUpon>observesentLetterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observesentLetterForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observesentLetterForm2.Designer.cs">
+      <DependentUpon>observesentLetterForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observeStudyHelpsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observeStudyHelpsForm.Designer.cs">
+      <DependentUpon>observeStudyHelpsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observeStudyHelpsForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observeStudyHelpsForm2.Designer.cs">
+      <DependentUpon>observeStudyHelpsForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="otherHelpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="otherHelpForm.Designer.cs">
+      <DependentUpon>otherHelpForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="otherHelpGlobalForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="otherHelpGlobalForm.Designer.cs">
+      <DependentUpon>otherHelpGlobalForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="otherHelpGlobalListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="otherHelpGlobalListForm.Designer.cs">
+      <DependentUpon>otherHelpGlobalListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="otherHelpGlobalPresentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="otherHelpGlobalPresentForm.Designer.cs">
+      <DependentUpon>otherHelpGlobalPresentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="otherHelpIndivCheckReqForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="otherHelpIndivCheckReqForm.Designer.cs">
+      <DependentUpon>otherHelpIndivCheckReqForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="otherHelpIndivConfirmForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="otherHelpIndivConfirmForm.Designer.cs">
+      <DependentUpon>otherHelpIndivConfirmForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="otherHelpIndivForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="otherHelpIndivForm.Designer.cs">
+      <DependentUpon>otherHelpIndivForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="otherHelpIndivPresentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="otherHelpIndivPresentForm.Designer.cs">
+      <DependentUpon>otherHelpIndivPresentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="otherHelpIndivReqForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="otherHelpIndivReqForm.Designer.cs">
+      <DependentUpon>otherHelpIndivReqForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="parameterVisitFamiliesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="parameterVisitFamiliesForm.Designer.cs">
+      <DependentUpon>parameterVisitFamiliesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="receivedLetterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="receivedLetterForm.Designer.cs">
+      <DependentUpon>receivedLetterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="recHelpsEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="recHelpsEditForm.Designer.cs">
+      <DependentUpon>recHelpsEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="recHelpsEditForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="recHelpsEditForm2.Designer.cs">
+      <DependentUpon>recHelpsEditForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="recHelpsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="recHelpsForm.Designer.cs">
+      <DependentUpon>recHelpsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="reportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reportForm.Designer.cs">
+      <DependentUpon>reportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="reportHelpsChooseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reportHelpsChooseForm.Designer.cs">
+      <DependentUpon>reportHelpsChooseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="reportHelpsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reportHelpsForm.Designer.cs">
+      <DependentUpon>reportHelpsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="reportReqsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reportReqsForm.Designer.cs">
+      <DependentUpon>reportReqsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="reportReqsForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reportReqsForm2.Designer.cs">
+      <DependentUpon>reportReqsForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="searchHelpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="searchHelpForm.Designer.cs">
+      <DependentUpon>searchHelpForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="deleteMemberForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="deleteMemberForm.Designer.cs">
+      <DependentUpon>deleteMemberForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editIndependencyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editIndependencyForm.Designer.cs">
+      <DependentUpon>editIndependencyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editKickForm3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editKickForm3.Designer.cs">
+      <DependentUpon>editKickForm3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editMarriageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editMarriageForm.Designer.cs">
+      <DependentUpon>editMarriageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editMarriageForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editMarriageForm2.Designer.cs">
+      <DependentUpon>editMarriageForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editMemberForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editMemberForm.Designer.cs">
+      <DependentUpon>editMemberForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editMemberForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editMemberForm2.Designer.cs">
+      <DependentUpon>editMemberForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editOtherApplicantForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editOtherApplicantForm.Designer.cs">
+      <DependentUpon>editOtherApplicantForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editReqForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editReqForm.Designer.cs">
+      <DependentUpon>editReqForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExtensionFunction.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="globalHelpListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="globalHelpListForm.Designer.cs">
+      <DependentUpon>globalHelpListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="globalHelpsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="globalHelpsForm.Designer.cs">
+      <DependentUpon>globalHelpsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="globalHelpsSuddenForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="globalHelpsSuddenForm.Designer.cs">
+      <DependentUpon>globalHelpsSuddenForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="helpPresentationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="helpPresentationForm.Designer.cs">
+      <DependentUpon>helpPresentationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="helpPresentationForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="helpPresentationForm2.Designer.cs">
+      <DependentUpon>helpPresentationForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="helpPresentationForm3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="helpPresentationForm3.Designer.cs">
+      <DependentUpon>helpPresentationForm3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="independencyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="independencyForm.Designer.cs">
+      <DependentUpon>independencyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kheirieDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>kheirieDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="kickForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kickForm.Designer.cs">
+      <DependentUpon>kickForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kickForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kickForm2.Designer.cs">
+      <DependentUpon>kickForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kickForm3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kickForm3.Designer.cs">
+      <DependentUpon>kickForm3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="newReqForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="newReqForm.Designer.cs">
+      <DependentUpon>newReqForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="newReqForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="newReqForm2.Designer.cs">
+      <DependentUpon>newReqForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="otherApplicantForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="otherApplicantForm.Designer.cs">
+      <DependentUpon>otherApplicantForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="parameterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="parameterForm.Designer.cs">
+      <DependentUpon>parameterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="reqForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reqForm.Designer.cs">
+      <DependentUpon>reqForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="responseReqForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="responseReqForm.Designer.cs">
+      <DependentUpon>responseReqForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="searchEnactmentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="searchEnactmentForm.Designer.cs">
+      <DependentUpon>searchEnactmentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="searchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="searchForm.Designer.cs">
+      <DependentUpon>searchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sendingLetterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sendingLetterForm.Designer.cs">
+      <DependentUpon>sendingLetterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="setBudgetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="setBudgetForm.Designer.cs">
+      <DependentUpon>setBudgetForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="setEnactmentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="setEnactmentForm.Designer.cs">
+      <DependentUpon>setEnactmentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="globalHelpEnactmentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="globalHelpEnactmentForm.Designer.cs">
+      <DependentUpon>globalHelpEnactmentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="setMarriageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="setMarriageForm.Designer.cs">
+      <DependentUpon>setMarriageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="setResearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="setResearchForm.Designer.cs">
+      <DependentUpon>setResearchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="specialHelpsForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="specialHelpsForm2.Designer.cs">
+      <DependentUpon>specialHelpsForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="specialHelpsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="specialHelpsForm.Designer.cs">
+      <DependentUpon>specialHelpsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="studyHelpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="studyHelpForm.Designer.cs">
+      <DependentUpon>studyHelpForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="studyHelpListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="studyHelpListForm.Designer.cs">
+      <DependentUpon>studyHelpListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="waitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="waitForm.Designer.cs">
+      <DependentUpon>waitForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="addApplicantForm.resx">
+      <DependentUpon>addApplicantForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addhelperForm.resx">
+      <DependentUpon>addhelperForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addMemberForm.resx">
+      <DependentUpon>addMemberForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addReceivedLetterForm.resx">
+      <DependentUpon>addReceivedLetterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addSendingLetterForm.resx">
+      <DependentUpon>addSendingLetterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bankAccountCreateForm.resx">
+      <DependentUpon>bankAccountCreateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bankAccountDelForm.resx">
+      <DependentUpon>bankAccountDelForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bankAccountDelForm2.resx">
+      <DependentUpon>bankAccountDelForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bankAccountEditForm.resx">
+      <DependentUpon>bankAccountEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bankAccountEditForm2.resx">
+      <DependentUpon>bankAccountEditForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bankAccountTransferEditForm2.resx">
+      <DependentUpon>bankAccountTransferEditForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bankAccountTransferForm.resx">
+      <DependentUpon>bankAccountTransferForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bankAccountTransferEditForm.resx">
+      <DependentUpon>bankAccountTransferEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bankScoreForm.resx">
+      <DependentUpon>bankScoreForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="budgetForm.resx">
+      <DependentUpon>budgetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="buyHelpsForm.resx">
+      <DependentUpon>buyHelpsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="changeSupporterForm.resx">
+      <DependentUpon>changeSupporterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checkReqForm.resx">
+      <DependentUpon>checkReqForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="comebackForm.resx">
+      <DependentUpon>comebackForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="comebackForm2.resx">
+      <DependentUpon>comebackForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="confirmResForm.resx">
+      <DependentUpon>confirmResForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="doceditForm.resx">
+      <DependentUpon>doceditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editApplicantForm.resx">
+      <DependentUpon>editApplicantForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editApplicantForm2.resx">
+      <DependentUpon>editApplicantForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editBudgetForm.resx">
+      <DependentUpon>editBudgetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editBuyHelpsForm.resx">
+      <DependentUpon>editBuyHelpsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editBuyHelpsForm2.resx">
+      <DependentUpon>editBuyHelpsForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editComebackForm2.resx">
+      <DependentUpon>editComebackForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editEnactmentForm.resx">
+      <DependentUpon>editEnactmentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editHelperForm.resx">
+      <DependentUpon>editHelperForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editHelperForm2.resx">
+      <DependentUpon>editHelperForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editReceivedLetterForm.resx">
+      <DependentUpon>editReceivedLetterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editReceivedLetterForm2.resx">
+      <DependentUpon>editReceivedLetterForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editSendingLetterForm.resx">
+      <DependentUpon>editSendingLetterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editSendingLetterForm2.resx">
+      <DependentUpon>editSendingLetterForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="healHelpCheckReqForm.resx">
+      <DependentUpon>healHelpCheckReqForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="healHelpConfirmForm.resx">
+      <DependentUpon>healHelpConfirmForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="healHelpForm.resx">
+      <DependentUpon>healHelpForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="healHelpPresentForm.resx">
+      <DependentUpon>healHelpPresentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="healHelpReqForm.resx">
+      <DependentUpon>healHelpReqForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="helpPresentationEduIntroductionForm.resx">
+      <DependentUpon>helpPresentationEduIntroductionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="marryHelpCheckReqForm.resx">
+      <DependentUpon>marryHelpCheckReqForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="marryHelpConfirmForm.resx">
+      <DependentUpon>marryHelpConfirmForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="marryHelpForm.resx">
+      <DependentUpon>marryHelpForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="marryHelpForm2.resx">
+      <DependentUpon>marryHelpForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="marryHelpPresentForm.resx">
+      <DependentUpon>marryHelpPresentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="marryHelpReqForm.resx">
+      <DependentUpon>marryHelpReqForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="marryResForm.resx">
+      <DependentUpon>marryResForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="marrySendIntroForm.resx">
+      <DependentUpon>marrySendIntroForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observeabandonedsForm.resx">
+      <DependentUpon>observeabandonedsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observeabandonedsForm2.resx">
+      <DependentUpon>observeabandonedsForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observeamountsForm.resx">
+      <DependentUpon>observeamountsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observeApplicantsForm.resx">
+      <DependentUpon>observeApplicantsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observeApplicantsForm2.resx">
+      <DependentUpon>observeApplicantsForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observeBankAccountForm2.resx">
+      <DependentUpon>observeBankAccountForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observeBankAccountsForm.resx">
+      <DependentUpon>observeBankAccountsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observeBudgetsetsForm.resx">
+      <DependentUpon>observeBudgetsetsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observeBudgetsetsForm2.resx">
+      <DependentUpon>observeBudgetsetsForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observeBudgetsForm.resx">
+      <DependentUpon>observeBudgetsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observeBuyhelpsForm.resx">
+      <DependentUpon>observeBuyhelpsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observeBuyhelpsForm2.resx">
+      <DependentUpon>observeBuyhelpsForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observeDocForm.resx">
+      <DependentUpon>observeDocForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observeEnactmentsForm.resx">
+      <DependentUpon>observeEnactmentsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observeFamiliesForm.resx">
+      <DependentUpon>observeFamiliesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observeFamiliesForm2.resx">
+      <DependentUpon>observeFamiliesForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observeForm.resx">
+      <DependentUpon>observeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observeGlobalHelpsForm.resx">
+      <DependentUpon>observeGlobalHelpsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observeGlobalHelpsForm2.resx">
+      <DependentUpon>observeGlobalHelpsForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observeHealHelpsForm.resx">
+      <DependentUpon>observeHealHelpsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observeHealHelpsForm2.resx">
+      <DependentUpon>observeHealHelpsForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observeHealReqsForm.resx">
+      <DependentUpon>observeHealReqsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observeHealReqsForm2.resx">
+      <DependentUpon>observeHealReqsForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observeHelpersForm.resx">
+      <DependentUpon>observeHelpersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observeHelpersForm2.resx">
+      <DependentUpon>observeHelpersForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observeindependencyCheckedForm.resx">
+      <DependentUpon>observeindependencyCheckedForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observeMarryHelpsForm.resx">
+      <DependentUpon>observeMarryHelpsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observeMarryHelpsForm2.resx">
+      <DependentUpon>observeMarryHelpsForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observeMarryReqsForm.resx">
+      <DependentUpon>observeMarryReqsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observeMarryReqsForm2.resx">
+      <DependentUpon>observeMarryReqsForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observeMembersForm2.resx">
+      <DependentUpon>observeMembersForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observeMembersForm.resx">
+      <DependentUpon>observeMembersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observeMoneyTransferForm.resx">
+      <DependentUpon>observeMoneyTransferForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observeMoneyTransferForm2.resx">
+      <DependentUpon>observeMoneyTransferForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observeOnindependencyForm.resx">
+      <DependentUpon>observeOnindependencyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observeOtherApplicantsForm.resx">
+      <DependentUpon>observeOtherApplicantsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observeOtherApplicantsForm2.resx">
+      <DependentUpon>observeOtherApplicantsForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observeOtherHelpsGlobalForm.resx">
+      <DependentUpon>observeOtherHelpsGlobalForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observeOtherHelpsGlobalForm2.resx">
+      <DependentUpon>observeOtherHelpsGlobalForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observeOtherIndivHelpsForm.resx">
+      <DependentUpon>observeOtherIndivHelpsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observeOtherIndivHelpsForm2.resx">
+      <DependentUpon>observeOtherIndivHelpsForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observeOtherIndivReqsForm.resx">
+      <DependentUpon>observeOtherIndivReqsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observeOtherIndivReqsForm2.resx">
+      <DependentUpon>observeOtherIndivReqsForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observeParametersForm.resx">
+      <DependentUpon>observeParametersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observerechelpsForm.resx">
+      <DependentUpon>observerechelpsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observerechelpsForm2.resx">
+      <DependentUpon>observerechelpsForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observerecLetterForm.resx">
+      <DependentUpon>observerecLetterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observerecLetterForm2.resx">
+      <DependentUpon>observerecLetterForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observereqForm1.resx">
+      <DependentUpon>observereqForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observereqForm2.resx">
+      <DependentUpon>observereqForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observereqForm2_2.resx">
+      <DependentUpon>observereqForm2_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observereqForm3.resx">
+      <DependentUpon>observereqForm3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observereqForm3_2.resx">
+      <DependentUpon>observereqForm3_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observesentLetterForm.resx">
+      <DependentUpon>observesentLetterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observesentLetterForm2.resx">
+      <DependentUpon>observesentLetterForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observeStudyHelpsForm.resx">
+      <DependentUpon>observeStudyHelpsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observeStudyHelpsForm2.resx">
+      <DependentUpon>observeStudyHelpsForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="otherHelpForm.resx">
+      <DependentUpon>otherHelpForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="otherHelpGlobalForm.resx">
+      <DependentUpon>otherHelpGlobalForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="otherHelpGlobalListForm.resx">
+      <DependentUpon>otherHelpGlobalListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="otherHelpGlobalPresentForm.resx">
+      <DependentUpon>otherHelpGlobalPresentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="otherHelpIndivCheckReqForm.resx">
+      <DependentUpon>otherHelpIndivCheckReqForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="otherHelpIndivConfirmForm.resx">
+      <DependentUpon>otherHelpIndivConfirmForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="otherHelpIndivForm.resx">
+      <DependentUpon>otherHelpIndivForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="otherHelpIndivPresentForm.resx">
+      <DependentUpon>otherHelpIndivPresentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="otherHelpIndivReqForm.resx">
+      <DependentUpon>otherHelpIndivReqForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parameterVisitFamiliesForm.resx">
+      <DependentUpon>parameterVisitFamiliesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="receivedLetterForm.resx">
+      <DependentUpon>receivedLetterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="recHelpsEditForm.resx">
+      <DependentUpon>recHelpsEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="recHelpsEditForm2.resx">
+      <DependentUpon>recHelpsEditForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="recHelpsForm.resx">
+      <DependentUpon>recHelpsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reportForm.resx">
+      <DependentUpon>reportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reportHelpsChooseForm.resx">
+      <DependentUpon>reportHelpsChooseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reportHelpsForm.resx">
+      <DependentUpon>reportHelpsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reportReqsForm.resx">
+      <DependentUpon>reportReqsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reportReqsForm2.resx">
+      <DependentUpon>reportReqsForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="searchHelpForm.resx">
+      <DependentUpon>searchHelpForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deleteMemberForm.resx">
+      <DependentUpon>deleteMemberForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editIndependencyForm.resx">
+      <DependentUpon>editIndependencyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editKickForm3.resx">
+      <DependentUpon>editKickForm3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editMarriageForm.resx">
+      <DependentUpon>editMarriageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editMarriageForm2.resx">
+      <DependentUpon>editMarriageForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editMemberForm.resx">
+      <DependentUpon>editMemberForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editMemberForm2.resx">
+      <DependentUpon>editMemberForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editOtherApplicantForm.resx">
+      <DependentUpon>editOtherApplicantForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editReqForm.resx">
+      <DependentUpon>editReqForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="globalHelpListForm.resx">
+      <DependentUpon>globalHelpListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="globalHelpsForm.resx">
+      <DependentUpon>globalHelpsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="globalHelpsSuddenForm.resx">
+      <DependentUpon>globalHelpsSuddenForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="helpPresentationForm.resx">
+      <DependentUpon>helpPresentationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="helpPresentationForm2.resx">
+      <DependentUpon>helpPresentationForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="helpPresentationForm3.resx">
+      <DependentUpon>helpPresentationForm3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="independencyForm.resx">
+      <DependentUpon>independencyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kickForm.resx">
+      <DependentUpon>kickForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kickForm2.resx">
+      <DependentUpon>kickForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kickForm3.resx">
+      <DependentUpon>kickForm3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="newReqForm.resx">
+      <DependentUpon>newReqForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="newReqForm2.resx">
+      <DependentUpon>newReqForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="otherApplicantForm.resx">
+      <DependentUpon>otherApplicantForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parameterForm.resx">
+      <DependentUpon>parameterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="reqForm.resx">
+      <DependentUpon>reqForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="responseReqForm.resx">
+      <DependentUpon>responseReqForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="searchEnactmentForm.resx">
+      <DependentUpon>searchEnactmentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="searchForm.resx">
+      <DependentUpon>searchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sendingLetterForm.resx">
+      <DependentUpon>sendingLetterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="setBudgetForm.resx">
+      <DependentUpon>setBudgetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="setEnactmentForm.resx">
+      <DependentUpon>setEnactmentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="globalHelpEnactmentForm.resx">
+      <DependentUpon>globalHelpEnactmentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="setMarriageForm.resx">
+      <DependentUpon>setMarriageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="setResearchForm.resx">
+      <DependentUpon>setResearchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="specialHelpsForm.resx">
+      <DependentUpon>specialHelpsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="specialHelpsForm2.resx">
+      <DependentUpon>specialHelpsForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="studyHelpForm.resx">
+      <DependentUpon>studyHelpForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="studyHelpListForm.resx">
+      <DependentUpon>studyHelpListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="waitForm.resx">
+      <DependentUpon>waitForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="kheirieDataSet.xsc">
+      <DependentUpon>kheirieDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="kheirieDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>kheirieDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="kheirieDataSet.xss">
+      <DependentUpon>kheirieDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="WindowsFormsApp6_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blank-New-Logoooo-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blank-New-Logoooo-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kherie.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\updateicon.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
